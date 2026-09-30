@@ -7,8 +7,6 @@ local exservice = game:GetService("ExperienceService")
 local tweenservice = game:GetService("TweenService")
 
 local ui = import("rbxassetid://75281832304062")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IcantAffordSynapse/tests/refs/heads/main/main.lua"))()
-
 ui.Parent = hui and hui() or coregui
 
 local ToggleButton = ui.togglebtn
